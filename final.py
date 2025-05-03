@@ -70,7 +70,7 @@ st.markdown(
 
 # -------Loading data and cleaning it [DA1]-----------------
 st.header("NYC Listings Explorer 🏙️")
-DATA_PATH = Path(".venv") / "NY-House-Dataset.csv"
+DATA_PATH = "/Users/ari.ramirezzz/PycharmProjects/PythonProject2/.venv/NY-House-Dataset.csv"
 df = pd.read_csv(DATA_PATH)
 
 df["PRICE"]     = pd.to_numeric(df["PRICE"], errors="coerce")
